@@ -22,4 +22,9 @@ for i in range(100):
     length = random.randint(20, 40)
     draw_star(x, y, length)
 
+# random.randint(x,y) is a function in random library name random.
+# it's output is choose a random value between x and y.
+# if you you want to use it, you must call : 'import random' before 'random.randint(x,y)'.
+# x,y are parameters.
+
 mainloop()
